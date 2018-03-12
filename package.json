@@ -1,0 +1,31 @@
+{
+  "name": "passport-jws",
+  "version": "0.0.1",
+  "description": "This is a project to test Passport.js + JWS to create an API with token authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermegjr/passport-jws.git"
+  },
+  "keywords": [
+    "Node",
+    "Passport",
+    "JWS"
+  ],
+  "author": "guilherme.jrafael@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermegjr/passport-jws/issues"
+  },
+  "homepage": "https://github.com/guilhermegjr/passport-jws#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
